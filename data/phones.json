@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 6",
+      "manufacturer": "Apple",
+      "description": "lorem ipsum dolor sit amet consectetur.",
+      "color": "white",
+      "price": 769,
+      "imageFileName": "IPhone_7.png",
+      "screen": "4,7 inch IPS",
+      "processor": "A10 Fusion",
+      "ram": 2
+    },
+    {
+      "id": 2,
+      "name": "Samsung S20",
+      "manufacturer": "Samsung",
+      "description": "lorem ipsum dolor sit amet consectetur.",
+      "color": "gold",
+      "price": 769,
+      "imageFileName": "IPhone_7.png",
+      "screen": "4,7 inch IPS",
+      "processor": "A10 Fusion",
+      "ram": 2
+    },
+    {
+      "id": 3,
+      "name": "iPhone 7",
+      "manufacturer": "Apple",
+      "description": "lorem ipsum dolor sit amet consectetur.",
+      "color": "black",
+      "price": 769,
+      "imageFileName": "IPhone_7.png",
+      "screen": "4,7 inch IPS",
+      "processor": "A10 Fusion",
+      "ram": 2
+    },
+    {
+      "id": 4,
+      "name": "iPhone 6",
+      "manufacturer": "Apple",
+      "description": "lorem ipsum dolor sit amet consectetur.",
+      "color": "white",
+      "price": 769,
+      "imageFileName": "IPhone_7.png",
+      "screen": "4,7 inch IPS",
+      "processor": "A10 Fusion",
+      "ram": 2
+    },
+    {
+      "id": 5,
+      "name": "Samsung S20",
+      "manufacturer": "Samsung",
+      "description": "lorem ipsum dolor sit amet consectetur.",
+      "color": "gold",
+      "price": 769,
+      "imageFileName": "IPhone_7.png",
+      "screen": "4,7 inch IPS",
+      "processor": "A10 Fusion",
+      "ram": 2
+    },
+    {
+        "id": 6,
+        "name": "iPhone 7",
+        "manufacturer": "Apple",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "black",
+        "price": 769,
+        "imageFileName": "IPhone_7.png",
+        "screen": "4,7 inch IPS",
+        "processor": "A10 Fusion",
+        "ram": 2
+      }
+  ]
