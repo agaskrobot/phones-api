@@ -27,11 +27,7 @@ function getPhone(id) {
 function insertPhone(newPhone) {
     return new Promise((resolve, reject) => {
         const id = { id: helper.getNewId(phones) }
-        const date = { 
-            createdAt: helper.newDate(),
-            updatedAt: helper.newDate()
-        } 
-        newPhone = { ...id, ...date, ...newPhone }
+        newPhone = { ...id,  ...newPhone }
         phones.push(newPhone)
         helper.writeJSONFile(filename, phones)
         resolve(newPhone)
@@ -44,11 +40,7 @@ function updatePhone(id, newPhone) {
         .then(phone => {
             const index = phones.findIndex(p => p.id == phone.id)
             id = { id: phone.id }
-            const date = {
-                createdAt: phone.createdAt,
-                updatedAt: helper.newDate()
-            } 
-            phones[index] = { ...id, ...date, ...newPhone }
+            phones[index] = { ...id, ...newPhone }
             helper.writeJSONFile(filename, phones)
             resolve(phones[index])
         })
@@ -60,7 +52,7 @@ function deletePhone(id) {
     return new Promise((resolve, reject) => {
         helper.mustBeInArray(phones, id)
         .then(() => {
-            phones = phones.filter(p => p.id !== id)
+            phones = phones.filter(p => p.id != id)
             helper.writeJSONFile(filename, phones)
             resolve()
         })
