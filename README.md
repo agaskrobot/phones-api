@@ -9,7 +9,7 @@
 
 ### Clone the project:
 
-    git clone https://github.com/agaskrobot/phones.git
+    git clone https://github.com/agaskrobot/phones-api.git
     cd dse-spa
 
 ### Start application:
