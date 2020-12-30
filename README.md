@@ -18,4 +18,4 @@ To run the application in the development mode execute:
 
     yarn run dev
 
-After open [http://localhost:1337](http://localhost:1337) to access the application.
+After open [http://localhost:8080](http://localhost:8080) to access the application.
