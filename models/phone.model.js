@@ -41,11 +41,12 @@ function updatePhone(id, newPhone, file) {
       .then((phone) => {
         const index = phones.findIndex((p) => p.id == phone.id);
         id = { id: phone.id };
+        image = phone.imageFileName;
         if (file) {
           const imageFileName = `http://localhost:8080/uploads/${file.filename}`;
           phones[index] = { ...id, ...newPhone, imageFileName };
         } else {
-          phones[index] = { ...id, ...newPhone };
+          phones[index] = { ...id, ...newPhone, imageFileName: image };
         }
         helper.writeJSONFile(filename, phones);
         resolve(phones[index]);
