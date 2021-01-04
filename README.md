@@ -25,3 +25,7 @@ After open [http://localhost:8080](http://localhost:8080) to access the applicat
 To run the application with docker execute:
 
     docker-compose up
+    
+    
+After open [http://localhost:8080](http://localhost:8080) to access the application.
+
